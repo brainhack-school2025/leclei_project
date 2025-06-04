@@ -1,0 +1,16 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 2cc8d239-20b5-44d1-baba-f40f3b918c42
+  title: BHS Jupyter Book
+  description: Jupyter Book created in the context of my BHS 2025 project
+  # keywords: []
+  authors:
+    - Maxmilien Le Clei
+  github: https://github.com/brainhack-school2025/leclei_project
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png

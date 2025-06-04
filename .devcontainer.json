@@ -1,1 +1,18 @@
-{"image": "docker.io/mleclei/bhs:latest"}
+{
+  "image": "mleclei/bhs:latest",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter"
+      ]
+    }
+  },
+  "mounts": [
+    {
+      "source": "${localWorkspaceFolder}/../algonauts_2025_challenge_tutorial_data",
+      "target": "${containerWorkspaceFolder}/../algonauts_2025_challenge_tutorial_data",
+      "type": "bind"
+    }
+  ]
+}
