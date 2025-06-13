@@ -1,7 +1,8 @@
 # MyST build outputs
 _build
 .ipynb_checkpoints
-ABIDEII-KKI_1.csv
+*.csv
+nilean_cache
 *.mp4
 *.html
 *.png
