@@ -3,6 +3,3 @@ _build
 .ipynb_checkpoints
 *.csv
 nilean_cache
-*.mp4
-*.html
-*.png
